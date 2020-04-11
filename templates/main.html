@@ -12,6 +12,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </head>
     <body >
+    <h1>{{headline}}</h1>
     <!----------startnavbar---------->
     <nav class="navbar navbar-expand-lg navbar-light bg-light text-center ">
     <a class="navbar-brand" href="#">Home</a>
@@ -30,7 +31,7 @@
         </ul>
         <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="{{ url_for('login')}}">LogIn</a></button>
         </form>
     </div>
     </nav>
