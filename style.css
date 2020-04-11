@@ -1,0 +1,21 @@
+body{
+    color:red;
+}
+.nav{
+    background-color: rgba(116, 113, 113, 0.801);
+    color:black;
+}
+a{
+    color:black;
+}
+.card{
+    background-color: rgba(116, 113, 113, 0.801);
+}
+.con{
+    background-color: cadetblue;
+    margin:50px;
+}
+.ci{
+    margin:50px;
+}
+
